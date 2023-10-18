@@ -30,14 +30,16 @@ public int countFactors(int A) {
     int count = 0;
     for (int i = 1; i <= Math.sqrt(A); i++) {
         if (A % i == 0) {
-            if (A / i == i)
+            if (A / i == i) {
                 count += 1; // Perfect square case
-            else
+            } else {
                 count += 2; // Counting both factors in the pair
+            }
         }
     }
     return count;
 }
+
   
 
 ##Time Complexity:-
