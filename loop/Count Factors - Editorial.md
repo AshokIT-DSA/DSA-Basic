@@ -26,18 +26,18 @@ The challenge is to create a program that counts all the factors of a given inte
    The total count collected in the above process will be the number of factors.
 
 ## Pseudo Code
-   function countFactors(A) {
-       count = 0;
-       for (i = 1; i <= sqrt(A); i++) {
-           if (A % i == 0) {
-               if (A / i == i)
-                   count += 1; // Perfect square case
-               else
-                   count += 2; // Counting both factors in the pair
-           }
-       }
-       return count;
-   }
+   function countFactors(A) {  
+       count = 0;  
+       for (i = 1; i <= sqrt(A); i++) {  
+           if (A % i == 0) {  
+               if (A / i == i)  
+                   count += 1; // Perfect square case  
+               else  
+                   count += 2; // Counting both factors in the pair  
+           }  
+       }  
+       return count;  
+   }  
 
 ##Time Complexity:-
     The time complexity of the countFactors function is O(sqrt(A)) because we iterate only up to the square root of 'A'.
