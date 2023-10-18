@@ -48,7 +48,7 @@ function countFactors(A) {
     The space complexity is O(1), as no additional space dependent on the input size is used.
 
 ##Java Code:
-```import java.util.Scanner;
+import java.util.Scanner;
 
 public class CountFactors {
     public static void main(String[] args) {
