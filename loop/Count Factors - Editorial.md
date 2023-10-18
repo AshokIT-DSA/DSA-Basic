@@ -72,7 +72,7 @@ public class CountFactors {
     }
 }
 
-Users can run the code, inputting their integer, and the program will output the number of factors for the integer 'A'.
+Users can run the code, inputting their integer, and the program will output the number of factors for the integer 'A'.  
 
 Users can run the code, inputting their integer, and the program will output the number of factors for the integer 'A', thus providing a quick and efficient method for determining all factors of a given number.
 
