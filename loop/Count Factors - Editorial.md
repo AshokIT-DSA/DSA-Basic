@@ -39,7 +39,7 @@ function countFactors(A) {
         }
     }
     return count;
-}
+}```
 
 ##Time Complexity:-
     The time complexity of the countFactors function is O(sqrt(A)) because we iterate only up to the square root of 'A'.
@@ -48,7 +48,7 @@ function countFactors(A) {
     The space complexity is O(1), as no additional space dependent on the input size is used.
 
 ##Java Code:
-import java.util.Scanner;
+```import java.util.Scanner;
 
 public class CountFactors {
     public static void main(String[] args) {
@@ -70,10 +70,8 @@ public class CountFactors {
 
         System.out.println("Number of factors: " + count);
     }
-}
-
-Users can run the code, inputting their integer, and the program will output the number of factors for the integer 'A'.  
-
+}```
+  
 Users can run the code, inputting their integer, and the program will output the number of factors for the integer 'A', thus providing a quick and efficient method for determining all factors of a given number.
 
 ### Common Mistakes to Avoid:
