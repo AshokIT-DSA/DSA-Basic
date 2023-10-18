@@ -26,8 +26,6 @@ The challenge is to create a program that counts all the factors of a given inte
    The total count collected in the above process will be the number of factors.
 
 ## Pseudo Code
-
-```plaintext
 function countFactors(A) {
     count = 0;
     for (i = 1; i <= sqrt(A); i++) {
@@ -39,7 +37,7 @@ function countFactors(A) {
         }
     }
     return count;
-}```
+}
 
 ##Time Complexity:-
     The time complexity of the countFactors function is O(sqrt(A)) because we iterate only up to the square root of 'A'.
